@@ -12,6 +12,9 @@ module.exports = {
         syfp: "0px 0px 30px 10px rgba(207, 12, 12, 0.29)",
         tebsi: "0px 0px 30px 10px rgba(255, 255, 255, 1)",
       },
+      boxShadow:{
+        'dropdown': "4px 2px 1px #2D9CDB"
+      },
       colors: {
         primary: "#D4F1F4",
         "filter-dropdown": "#202E30",
