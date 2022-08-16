@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-const ProjectCard = ({ id, title, thumbnailImage, shadow, link }) => {
-  
+const ProjectCard = ({ id, title, thumbnailImage, shadow, link, shadowHover }) => {
+  console.log(`${shadow}`);
   return (
-    <div className={`hover:-translate-y-2 transition cursor-pointer`}>
+    <div className={`hover:-translate-y-2 transition hover:drop-shadow-project-syfp-hover drop-shadow-project-syfp cursor-pointer `}>
       <Link href={link}>
         <div className={`mb-4 flex rounded-sm`}>
           <Image

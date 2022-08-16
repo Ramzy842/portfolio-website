@@ -3,7 +3,8 @@ const projects = [
     id: 0,
     title: "Marvomics",
     link: "/projects/marvomics",
-    shadow: "shadow-red-500/50",
+    shadow: "project-syfp",
+    shadowHover: "project-syfp-hover",
     thumbnailImage: "/assets/projectImages/marvomics/marvomics.jpg",
     tech: [{name: "NextJS", bgColor: "#fff"}, {name: "ReactJS" , bgColor: "#00D1FF" } ,  {name: "TailwindCSS" , bgColor: "#29A3BE" }],
     description: "Your Favorite Marvel Characters and Comics all in one",
@@ -31,7 +32,8 @@ const projects = [
     id: 1,
     title: "Tebsi",
     link: "/projects/tebsi",
-    shadow: "shadow-gray-500/50",
+    shadow: "project-syfp",
+    shadowHover: "project-syfp-hover",
     thumbnailImage: "/assets/projectImages/tebsi/tebsi.jpg",
     tech: [{name: "ReactJS" , bgColor: "#00D1FF" } ,  {name: "TailwindCSS" , bgColor: "#29A3BE" }],
     description: "Saas Marketing Landing Page",
@@ -65,7 +67,8 @@ const projects = [
     id: 2,
     title: "SYFP",
     link: "/projects/syfp",
-    shadow: "shadow-cyan-500/50",
+    shadow: "project-syfp",
+    shadowHover: "project-syfp-hover",
     thumbnailImage: "/assets/projectImages/syfp/syfp.jpg",
     tech: [{name: "ReactJS" , bgColor: "#00D1FF" } ,  {name: "TailwindCSS" , bgColor: "#29A3BE" }, {name: "Firebase" , bgColor: "linear-gradient(94.75deg, #FFD600 12.54%, #FAFF00 95.93%)" } ],
     description:
@@ -90,6 +93,7 @@ const projects = [
       },
     ],
   },
+  
 ];
 
 export default projects;

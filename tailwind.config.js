@@ -11,6 +11,8 @@ module.exports = {
         "marvomics": "0 0 30px 10px rgba(207, 12, 12, 0.29)",
         syfp: "0px 0px 30px 10px rgba(207, 12, 12, 0.29)",
         tebsi: "0px 0px 30px 10px rgba(255, 255, 255, 1)",
+        "project-syfp": "0px 0px 10px rgba(0, 209, 255, 0.32)",
+        "project-syfp-hover": "0px 0px 40px rgba(0, 209, 255, 0.32)"
       },
       boxShadow:{
         'dropdown': "4px 2px 1px #2D9CDB"
