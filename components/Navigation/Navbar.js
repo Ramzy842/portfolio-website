@@ -7,8 +7,8 @@ const Navbar = ({menuIsOpen, setMenuIsOpen}) => {
   return (
     <div className='fixed top-0 right-0 left-0 backdrop-blur-md py-2 md:py-0 md:h-auto bg-white/0 z-50'>
         <div className="container mx-auto ">
-          <div className=" pt-2 flex justify-end items-center  px-4 z-20">
-            <ul className="hidden md:flex  justify-around items-end  text-primary w-4/5 max-w-xl z-20 mr-8 ">
+          <div className=" pt-2 flex justify-end items-center md:justify-center lg:justify-end px-4 z-20">
+            <ul className="hidden md:flex justify-around  lg:justify-around items-end w-full text-primary lg:w-1/3 max-w-xl z-20  lg:mr-12 ">
               {Links.map((singleLink) => {
                 const { id, name, link } = singleLink;
                 return <SingleLink key={id} name={name} link={link} />;

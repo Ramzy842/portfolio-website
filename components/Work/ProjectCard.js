@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 const ProjectCard = ({ id, title, thumbnailImage, shadow, link, shadowHover }) => {
-  console.log(`${shadow}`);
+  
   return (
     <div className={`hover:-translate-y-2 transition hover:drop-shadow-project-syfp-hover drop-shadow-project-syfp cursor-pointer `}>
       <Link href={link}>

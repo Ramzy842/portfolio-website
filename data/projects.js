@@ -1,6 +1,7 @@
 const projects = [
   {
     id: 0,
+    checked: true,
     title: "Marvomics",
     link: "/projects/marvomics",
     shadow: "project-syfp",
@@ -30,6 +31,7 @@ const projects = [
   },
   {
     id: 1,
+    checked: true,
     title: "Tebsi",
     link: "/projects/tebsi",
     shadow: "project-syfp",
@@ -65,6 +67,7 @@ const projects = [
   },
   {
     id: 2,
+    checked: true,
     title: "SYFP",
     link: "/projects/syfp",
     shadow: "project-syfp",
