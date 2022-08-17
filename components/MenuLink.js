@@ -21,7 +21,7 @@ const MenuLink = ({ link, name, image, asPath, setMenuIsOpen }) => {
   return (
     <Link  href={link}>
       <div onClick={() => setMenuIsOpen(false)}
-        // style={ { background: currentRoute === asPath && '#fff'}}
+        
         className={`${
           (currentRoute === asPath && isServer === false) && styles.activeContainer
         } py-6 flex items-center relative  border-blue-500  `}
