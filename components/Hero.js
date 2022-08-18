@@ -31,7 +31,7 @@ const particlesLoaded = useCallback(async (container) => {
           <h2 className="text-xl md:text-2xl lg:text-4xl	font-semibold text-center text-primary md:mb-8 z-40 ">
             Hi, I&apos;m Ramzi Chahbani
           </h2>
-          <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold text-center text-transparent bg-clip-text bg-title p-4">
+          <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold text-center text-transparent bg-clip-text bg-title p-4 z-40">
             Frontend Developer
           </h1>
         </div>

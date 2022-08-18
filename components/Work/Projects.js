@@ -10,7 +10,7 @@ const Projects = ({ projects }) => {
   // console.log(projects.map(project => project.checked === true && project));
 
   return (
-    <div className=" min-h-screen py-20 " name='work' id="work">
+    <div className=" min-h-screen py-20 z-40 " name='work' id="work">
       <div className="mx-auto container h-full flex flex-col  items-center ">
         <Filter  technologies={technologies} projects={projects} setProjectsList={setProjectsList} projectsList={projectsList} />
 

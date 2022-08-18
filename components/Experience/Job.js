@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Job = ({ image, role, type, duration, description, length, index }) => {
   return (
-    <div className={`flex flex-col mb-16 ${index === length - 1 ? "border-none" : "border-b"} md:border-none pb-16  md:mb-0`}>
+    <div className={`flex flex-col mb-16 ${index === length - 1 ? "border-none" : "border-b"} md:border-none pb-16  md:mb-0 z-40`}>
       <div className="flex mb-4">
         <div>
           <Image src={image} height={100} width={100} alt={type} />
