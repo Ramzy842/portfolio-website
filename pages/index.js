@@ -10,7 +10,9 @@ import Contact from "../components/Contact";
 export default function Home({ technologies, projects, jobs }) {
   return (
     <div>
-      <Head></Head>
+      <Head>
+        <title>Portfolio | Ramzi Chahbani | Frontend Developer</title>
+      </Head>
       <Hero technologies={technologies} />
       <Projects projects={projects} />
       <Experience technologies={technologies} jobs={jobs} /> 

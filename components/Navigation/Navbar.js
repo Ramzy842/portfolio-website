@@ -16,8 +16,8 @@ const Navbar = ({ menuIsOpen, setMenuIsOpen }) => {
         <div className=" pt-2 flex justify-end items-center md:justify-center lg:justify-end px-4 z-20">
           <ul className="hidden md:flex justify-around  lg:justify-around items-end w-full text-primary lg:w-1/3 max-w-xl z-20  lg:mr-12 ">
             {Links.map((singleLink) => {
-              const { id, name, link } = singleLink;
-              return <SingleLink key={id} name={name} link={link} />;
+              const { id, name, link, asPath } = singleLink;
+              return <SingleLink asPath={asPath} key={id} name={name} link={link}  />;
             })}
             <a
               href="https://github.com/Ramzy842"

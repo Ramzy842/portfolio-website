@@ -6,6 +6,7 @@
   scroll-behavior: smooth;
 }
 
+
 .menu-link-active{
   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;

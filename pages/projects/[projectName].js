@@ -30,7 +30,11 @@ const ProjectPage = ({ project }) => {
   }, [index, project.screenshots]);
   return (
     <>
-      <Head></Head>
+      <Head>
+        <title>
+        {"Projects | "  + project.title}
+        </title>
+      </Head>
       <div className="min-h-screen">
         <div className="mx-auto container  h-full pt-20 ">
           <div className="">
