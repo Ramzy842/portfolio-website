@@ -15,7 +15,7 @@ const Details = ({
       <div className="flex flex-col  md:flex-row justify-between">
         <div className="flex flex-col flex-1 mb-4">
           <h1 className="text-white text-xl mb-2 font-bold tracking-wider">{title}</h1>
-          <p className="text-sm text-white leading-6  md:mb-0 md:w-11/12 text-gray-100">
+          <p className="text-sm text-white leading-6 capitalize md:mb-0 md:w-11/12 text-gray-100">
             {description}
           </p>
         </div>
