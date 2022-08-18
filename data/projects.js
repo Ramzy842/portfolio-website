@@ -8,7 +8,7 @@ const projects = [
     shadowHover: "project-syfp-hover",
     thumbnailImage: "/assets/projectImages/marvomics/marvomics.jpg",
     tech: [{name: "NextJS", bgColor: "#fff"}, {name: "ReactJS" , bgColor: "#00D1FF" } ,  {name: "TailwindCSS" , bgColor: "#29A3BE" }],
-    description: "Your Favorite Marvel Characters and Comics all in one",
+    description: "A website where You can search for info about Your Favorite Marvel Characters and Comics, Powered By Marvel's Official API",
     screenshots: [
       "/assets/projectImages/marvomics/screenshots/1.jpg",
       "/assets/projectImages/marvomics/screenshots/2.jpg",
@@ -38,7 +38,7 @@ const projects = [
     shadowHover: "project-syfp-hover",
     thumbnailImage: "/assets/projectImages/tebsi/tebsi.jpg",
     tech: [{name: "ReactJS" , bgColor: "#00D1FF" } ,  {name: "TailwindCSS" , bgColor: "#29A3BE" }],
-    description: "Saas Marketing Landing Page",
+    description: "Software As A Service Marketing Landing Page",
     screenshots: [
       "/assets/projectImages/tebsi/screenshots/1.jpg",
       "/assets/projectImages/tebsi/screenshots/2.jpg",

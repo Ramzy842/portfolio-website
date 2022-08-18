@@ -79,18 +79,14 @@ const ProjectPage = ({ project }) => {
                   screenshots={project.screenshots}
                   description={project.description}
                   setIndex={setIndex}
+                  title={project.title}
                 />
               </div>
             </div>
           </div>
           <div className="max-w-7xl mt-4 mx-4 md:mx-auto">
             <div className="">
-              <h1 className="capitalize text-white font-bold mb-4">
-                Marvomics:{" "}
-                <span className="font-light">
-                  Marvel comics and characters all in one
-                </span>
-              </h1>
+              
               <Technologies tech={project.tech} />
             </div>
           </div>
