@@ -51,8 +51,8 @@ const Navbar = ({ menuIsOpen, setMenuIsOpen }) => {
             {menuIsOpen ? (
               <Image
                 src="/assets/icons/x.svg"
-                height={24}
-                width={24}
+                height={32}
+                width={32}
                 alt="menu"
                 onClick={() => setMenuIsOpen(false)}
               />
